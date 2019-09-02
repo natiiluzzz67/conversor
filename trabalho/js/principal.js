@@ -1,3 +1,4 @@
+// converte o campo escolhido
 function convertTemp(direction) {
 
     var fObj = document.convert.ftemp, cObj = document.convert.ctemp, kObj = document.convert.ktemp;
@@ -17,6 +18,7 @@ function convertTemp(direction) {
     }
 }
 
+// limpa os campos 
 function clearAll() {
     document.convert.ftemp.value = "";
     document.convert.ctemp.value = "";

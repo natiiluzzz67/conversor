@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
 
 <head>
-  <title>Conversor</title>
-
-  <link rel="stylesheet" href="css/index.css">
+    <title> Conversor </title>
+    <link rel="stylesheet" href="css/temperatura.css">
 </head>
-
+<!-- inputs conversão -->
 <body>
-  <h1>Conversor</h1>
-  <div class="btns">
 
-    <form method="get" action="temperatura.html">
+    <h1>Conversor de temperatura</h1>
 
-    <button type="submit" class="efeito animaçao1">Temperatura</button>
+    <form class = "temp" name="convert">
+        <br>Fahrenheit:
+        <input type="text" name="ftemp" size="7" onchange="convertTemp('ftoc')">
+        <br>Celsius:
+        <input type="text" name="ctemp" size="7" onchange="convertTemp('ctof')">
+        <br>Kelvin: 
+        <input type="text" name="ktemp" size="7" onchange="convertTemp('ktof')">
+
+        <br /><br />
+
+        <input id="limpar" type="button" value="limpar" onclick="clearAll();">
 
     </form>
 
-  </div>
 
-
-
+    <script type="text/javascript" src="js/principal.js"></script>
 </body>
-
-<script src="js/menu.js"></script>
 
 </html>
