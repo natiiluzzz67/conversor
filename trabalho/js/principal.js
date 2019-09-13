@@ -1,7 +1,9 @@
-// converte o campo escolhido
+    // converte o campo escolhido
 function convertTemp(direction) {
 
     var fObj = document.convert.ftemp, cObj = document.convert.ctemp, kObj = document.convert.ktemp;
+
+    
 
     if (direction == "ftoc") {
         cObj.value = Math.round((fObj.value - 32) * (5 / 9));

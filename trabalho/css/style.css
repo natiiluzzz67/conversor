@@ -1,0 +1,25 @@
+#titulo{
+    font-size: 6em; /*tamanho da fonte do título*/
+    color: crimson; /*cor do texto*/
+    text-align: center; /*alinhamento do texto*/
+} 
+
+.temp{
+    font-size: 4em; /*tamanho da fonte do título*/
+    color: crimson; /*cor do texto*/
+    text-align: center; /*alinhamento do texto*/
+}
+
+#limpar{
+    font-size: 0.5em; /*tamanho da fonte do título*/
+    color: crimson; /*cor do texto*/
+    text-align: center; /*alinhamento do texto*/
+    border-color: crimson;
+}
+
+#input {
+    border-color: black;
+    width: 4em;
+    height: .7em;
+    font-size: .6em;
+}
