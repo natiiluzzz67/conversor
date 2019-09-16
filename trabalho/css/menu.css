@@ -1,0 +1,55 @@
+.btn{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.efeito:focus, .btn::-moz-focus-inner{
+    outline:none;
+    border:none;
+  }
+  .efeito{
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+
+  .efeito{
+      width: 200px;
+      height: 100px;
+  }
+
+  .animaçao1{
+    background:green;
+    color:#fff;
+    box-shadow:0 5px 0 #006000;
+  }
+  .animaçao1:hover{
+    background:#006000;
+    box-shadow:0 5px 0 #003f00;
+  }
+
+  .animaçao2{
+    background:blue;
+    color:#fff;
+    box-shadow:0 5px 0 darkblue;
+  }
+  .animaçao2:hover{
+    background:darkblue;
+    box-shadow:0 5px 0 darkblue, 0 0 5px green;
+}
+
+  .animaçao3{
+    background:red;
+    color:#fff;
+    box-shadow:0 10px 0 darkred;
+  }
+  .animaçao3:hover{
+    background: darkred;
+    box-shadow:0 10px 0 red;
+  }
